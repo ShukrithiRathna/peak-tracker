@@ -118,7 +118,7 @@ def summary_tab(scan_data, merged_time_series, peaks_df):
     box_plot_img = "PeakTracking_App/static/box_plot.png"
     logo_src = ColumnDataSource(dict(url = [box_plot_img]))
 
-    box_plot = figure(plot_width = 400, plot_height = 400, title="Box Plot of Amplitude Distribution")
+    box_plot = figure(plot_width = 400, plot_height = 400, title="Box Plot of Amplitudes")
     box_plot.toolbar.logo = None
     box_plot.toolbar_location = None
     box_plot.x_range=Range1d(start=0, end=1)

@@ -40,6 +40,6 @@ def peak_plot_tab(scan_data, merged_time_series, peaks_df):
     plot.add_tools(h)
 
 # Make a tab with the plot
-    tab = Panel(child = plot, title = 'Peak_plot')
+    tab = Panel(child = plot, title = 'Peak Plot')
 
     return(tab)
