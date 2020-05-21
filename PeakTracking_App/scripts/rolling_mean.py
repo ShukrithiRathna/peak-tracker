@@ -21,7 +21,7 @@ def rolling_mean_tab(scan_data, merged_time_series, peaks_df):
 # function to  plot the data for the slider
     def make_plot_slider(src_slider):
 	    # table_columns = [TableColumn(field='Indices', title='Time(micro seconds'),
-        plot = figure(plot_width = 1000, plot_height = 700, title = 'Peak Tracking in Ascan Data',x_axis_label = 'Time (Micro seconds))',y_axis_label = 'Amplitude')
+        plot = figure(plot_width = 1000, plot_height = 700, title = 'Peak Tracking in Ascan Data',x_axis_label = 'Time (ms))',y_axis_label = 'Amplitude')
         plot.line(x='Indices', y='Rolling_Average',color='blue', source=src_slider)
         h = HoverTool(tooltips = [('Amplitude', '@Rolling_Average'),('Part','@Label')])
         plot.add_tools(h)

@@ -7,7 +7,7 @@ from bokeh.models.widgets import Tabs
 def peak_plot_tab(scan_data, merged_time_series, peaks_df):
 
 # from bokeh.palettes import d3
-    plot = figure(plot_width = 1000, plot_height = 650, title = 'Peak Tracking in a-scan Data',x_axis_label = 'Time (Micro seconds))',y_axis_label = 'Amplitude')
+    plot = figure(plot_width = 1000, plot_height = 650, title = 'Peak tracking in a-scan data',x_axis_label = 'Time (ms))',y_axis_label = 'Amplitude')
 
 # Data Source for plot
     source = (ColumnDataSource(merged_time_series))
