@@ -10,8 +10,9 @@
   * numpy
   * pandas
   * seaborn
-* To run the application, use the following command from this repository in the command line:
-  * bokeh serve --show PeakTracking_App/
+ *  Requirements can be installed by running 'pip install -r requirements.txt' in your virtual environment. 
+* To run the application, use the following command from the folder in which this repository has been  placed
+  * bokeh serve --show peak-tracker
 * The application will open in your system's default browser.
   
 ### Features
