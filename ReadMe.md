@@ -5,6 +5,11 @@
   
 ### Usage
 
+The app has been hosted online and can be found at https://peak-tracker.herokuapp.com/
+
+If you wish to run the app locally, follow the instructions below:
+
+#### To run a local bokeh server:
 * The application uses the following python packages. Kindly ensure that all necessary packages are installed before running the server.
   * bokeh
   * numpy
