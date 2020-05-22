@@ -112,10 +112,10 @@ def summary_tab(scan_data, merged_time_series, peaks_df):
 #  creating a box plot to show distribution of Amplitudes
     sns_plot=sns.boxplot( y=merged_time_series["Amplitude"], x=merged_time_series["Label"] );
     fig = sns_plot.get_figure()
-    fig.savefig("PeakTracking_App/static/box_plot.png")
+    fig.savefig("peak_tracker/static/box_plot.png")
 
 # Plotting the saved boxplot image
-    box_plot_img = "PeakTracking_App/static/box_plot.png"
+    box_plot_img = "peak_tracker/static/box_plot.png"
     logo_src = ColumnDataSource(dict(url = [box_plot_img]))
 
     box_plot = figure(plot_width = 400, plot_height = 400, title="Box Plot of Amplitudes")
