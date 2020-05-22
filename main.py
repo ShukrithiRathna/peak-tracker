@@ -24,8 +24,8 @@ def fill_labels(labels,ind,value):
 
 # Read data into dataframes
 scan_data = pd.DataFrame()
-for file in os.listdir('peak-tracker/Data/')[1:-1]:
-    filepath='peak-tracker/Data/'+str(file)
+for file in os.listdir('Data/')[1:-1]:
+    filepath='Data/'+str(file)
     temp = open(filepath,'+r')
     temp = temp.read().splitlines()
     temp = [int(item) for item in temp]
