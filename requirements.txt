@@ -12,7 +12,6 @@ backports.shutil-get-terminal-size==1.0.0
 backports.tempfile==1.0
 backports.weakref==1.0.post1
 beautifulsoup4==4.9.1
-bitarray @ file:///tmp/build/80754af9/bitarray_1594753876414/work
 bkcharts==0.2
 bleach==3.1.5
 boto==2.49.0
@@ -22,20 +21,15 @@ certifi==2020.6.20
 cffi==1.14.0
 chardet==3.0.4
 click==7.1.2
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1594141588948/work
 clyent==1.2.2
 colorama==0.4.3
 contextlib2==0.6.0.post1
 cryptography==2.9.2
 cycler==0.10.0
-Cython @ file:///tmp/build/80754af9/cython_1594831566883/work
 cytoolz==0.10.1
-dask @ file:///tmp/build/80754af9/dask-core_1594156306305/work
 decorator==4.4.2
 defusedxml==0.6.0
-diff-match-patch @ file:///tmp/build/80754af9/diff-match-patch_1594828741838/work
 distlib==0.3.1
-distributed @ file:///tmp/build/80754af9/distributed_1594750293818/work
 docutils==0.16
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -45,7 +39,6 @@ flake8==3.8.3
 Flask==1.1.2
 fsspec==0.7.4
 future==0.18.2
-gevent @ file:///tmp/build/80754af9/gevent_1593009537125/work
 glob2==0.7
 gmpy2==2.0.8
 greenlet==0.4.16
@@ -87,9 +80,6 @@ MarkupSafe==1.1.1
 matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1592846008246/work
 mccabe==0.6.1
 mistune==0.8.4
-mkl-fft==1.1.0
-mkl-random==1.1.1
-mkl-service==2.3.0
 mock==4.0.2
 more-itertools==8.4.0
 mpmath==1.1.0
@@ -182,7 +172,6 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_1593446360927/work
-spyder @ file:///tmp/build/80754af9/spyder_1594832131358/work
 spyder-kernels @ file:///tmp/build/80754af9/spyder-kernels_1594751551963/work
 SQLAlchemy @ file:///tmp/build/80754af9/sqlalchemy_1593446299926/work
 statsmodels==0.11.1
