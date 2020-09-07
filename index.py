@@ -4,7 +4,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
-from app import App
+from distribution import App
 from peaks import Peak
 from homepage import Homepage
 
