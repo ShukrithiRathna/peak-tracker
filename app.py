@@ -10,7 +10,9 @@ from homepage import Homepage
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
 
+
 app.title="Peak Tracker"
+server = app.server
 app.config.suppress_callback_exceptions = True
 
 app.layout = html.Div([
