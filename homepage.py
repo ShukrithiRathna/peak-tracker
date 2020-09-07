@@ -51,7 +51,7 @@ card =     [
             # dbc.CardHeader("Peak Tracking in Pipes", className= "text-center"),
             #   dbc.CardImg(s   rc="/static/images/peak.png", top=True),
              html.H5("Peak Tracking in Pipes", className="card-title"),
-            html.P("This is a mini-application that displays various stats related to peak tracking of sensor data using Python. The graph on the right displays the ascan sensor data from a pipe. Browse the other tabs on the menu to view other stats." ),
+            html.P("This is a mini-application that displays various stats related to peak tracking of sensor data using Python. The graphs display the stats of ascan sensor data of pipes." ),
             dbc.Button("View Peaks", color="primary",href="/peaks"),
         ],
         
